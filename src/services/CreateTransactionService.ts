@@ -17,7 +17,7 @@ interface Response {
   id: string;
   title: string;
   value: number;
-  type: string;
+  type: 'income' | 'outcome';
   category: string;
 }
 
